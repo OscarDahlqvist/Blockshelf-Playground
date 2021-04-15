@@ -1,6 +1,7 @@
 package me.wilux.blockshelf_playground.blocks;
 
-import me.benfah.cu.api.CustomRegistry;
+import me.wilux.blockshelf.api.CustomRegistry;
+import me.wilux.blockshelf.extentions.OrientableCustomBlock;
 import me.wilux.blockshelf_playground.BlockshelfPlayground;
 import org.bukkit.Material;
 import org.bukkit.block.Block;

@@ -1,7 +1,7 @@
 package me.wilux.blockshelf_playground.items;
 
-import me.benfah.cu.api.CustomItem;
-import me.benfah.cu.api.CustomRegistry;
+import me.wilux.blockshelf.api.CustomItem;
+import me.wilux.blockshelf.api.CustomRegistry;
 import me.wilux.blockshelf_playground.Config;
 import me.wilux.blockshelf_playground.BlockshelfPlayground;
 import me.wilux.blockshelf_playground.TempStorage;

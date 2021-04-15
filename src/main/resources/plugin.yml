@@ -1,10 +1,10 @@
-main: me.wilux.blockshelf.Main
-name: Blockshelf
+main: me.wilux.blockshelf_playground.BlockshelfPlayground
+name: Blockshelf Playground
 version: 0.1
 authors: [wilux]
 
 api-version: 1.13
-depend: [ProtocolLib]
+depend: [Blockshelf]
 load: STARTUP
 
 commands:

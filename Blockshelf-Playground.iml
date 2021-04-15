@@ -19,7 +19,15 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.code.gson:gson:2.8.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: net.md-5:bungeecord-chat:1.16-R0.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.yaml:snakeyaml:1.27" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: me.wilux:blockbench:0.1" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: me.wilux:blockbench:0.1">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../blockshelf/target/BlockShelf.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="module-library">
       <library name="Maven: net.minecraft.server.v1_16_R3:minecraft:1.0">
         <CLASSES>

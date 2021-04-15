@@ -1,6 +1,8 @@
 package me.wilux.blockshelf_playground.blocks;
 
-import me.benfah.cu.api.CustomRegistry;
+import me.wilux.blockshelf.api.CustomRegistry;
+import me.wilux.blockshelf.extentions.GuiAble;
+import me.wilux.blockshelf.extentions.OrientableCustomBlock;
 import me.wilux.blockshelf_playground.BlockshelfPlayground;
 import me.wilux.blockshelf_playground.Register._DummyText;
 import net.minecraft.server.v1_16_R3.PacketPlayOutOpenWindowHorse;

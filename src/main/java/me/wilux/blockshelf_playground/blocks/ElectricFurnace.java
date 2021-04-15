@@ -1,6 +1,7 @@
 package me.wilux.blockshelf_playground.blocks;
 
-import me.benfah.cu.api.CustomRegistry;
+import me.wilux.blockshelf.api.CustomRegistry;
+import me.wilux.blockshelf.extentions.OrientableCustomBlock;
 import me.wilux.blockshelf_playground.BlockshelfPlayground;
 import me.wilux.blockshelf_playground.Register._DummyText;
 import org.bukkit.Bukkit;
@@ -11,7 +12,7 @@ import org.bukkit.event.inventory.InventoryType;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
 
-public class ElectricFurnace extends OrientableCustomBlock{
+public class ElectricFurnace extends OrientableCustomBlock {
     public static final String DISPLAY_NAME = "Electric Furnace";
     public static final String ID = "electric_furnace";
     public static final String ID_WE = "electric_furnace_we";

@@ -2,15 +2,15 @@ package me.wilux.blockshelf_playground;
 
 import com.comphenix.protocol.ProtocolLibrary;
 import com.comphenix.protocol.ProtocolManager;
-import me.benfah.cu.api.CustomBlock;
-import me.benfah.cu.api.CustomRegistry;
+import me.wilux.blockshelf.api.CustomBlock;
+import me.wilux.blockshelf.api.CustomRegistry;
+import me.wilux.blockshelf.extentions.GuiAble;
 import me.wilux.blockshelf_playground.blocks.*;
 import me.wilux.blockshelf_playground.commands.DebugCommand;
 import me.wilux.blockshelf_playground.commands.DebugCommand2;
 import me.wilux.blockshelf_playground.commands.SetAbility;
 import me.wilux.blockshelf_playground.items.WateringCan;
 import me.wilux.blockshelf_playground.items.WireSpool;
-import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -49,9 +49,6 @@ public class BlockshelfPlayground extends JavaPlugin {
         this.getCommand("rpdelete").setExecutor(new DebugCommand2());
         this.getCommand("setability").setExecutor(new SetAbility());
         //getServer().getPluginManager().registerEvents(new PlaceBlockListener(), this);
-
-        CustomBlock exDirt = new CustomBlock(CBLOCKNAME_EXDIRT,"pseudoblock/exdirt","Exdirt");
-        CustomRegistry.register(exDirt,this);
 
         ElectricFurnace.register();
         CoalGenerator.register();
